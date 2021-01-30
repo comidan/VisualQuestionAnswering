@@ -40,7 +40,7 @@ pre-produce (to enhance training speed) its interpretation of the question which
 layer as a vector of 768 elements.
 We also added as said Early Stopping technique during training in order to prevent over fitting and stop the
 training at a reasonable epoch.
-The actual model here described can be seen in the below Figure 2.
+The actual model here described, with a total of 61,520,538 parameters, can be seen here below.
 
 ```python
 image_input = Input(shape=(*IMAGE_SHAPE, 3), name="image")
